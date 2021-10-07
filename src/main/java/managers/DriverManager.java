@@ -147,7 +147,7 @@ public class DriverManager {
                 capabilities.setCapability("enableVideo", false);
                 try {
                     driver = new RemoteWebDriver(
-                            URI.create("http://161.35.194.216:8080/#/").toURL(),
+                            URI.create("http://selenoid.appline.ru:8080/#/").toURL(),
                             capabilities);
                 } catch (MalformedURLException e) {
                     e.printStackTrace();
