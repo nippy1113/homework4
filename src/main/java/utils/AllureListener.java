@@ -21,7 +21,6 @@ public class AllureListener extends AllureCucumber5Jvm {
                 if (testStepFinished.getResult().getStatus().is(Status.FAILED)) {
                     Allure.getLifecycle().addAttachment("html page", "text/html", "HTML", DriverManager.getDriverManager().getDriver().getPageSource().getBytes());
                     Allure.getLifecycle().addAttachment("screenshot", "image/png", "png", saveScreenShootPNG());
-                    //Allure.addAttachment("screenshot", "image/png", new ByteInputStream(saveScreenShootPNG(),));
                 }
             }
         });

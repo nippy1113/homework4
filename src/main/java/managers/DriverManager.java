@@ -13,10 +13,7 @@ import java.net.URI;
 
 import static utils.PropConst.*;
 
-/**
- * @author Arkadiy_Alaverdyan
- * Класс для управления веб драйвером
- */
+
 public class DriverManager {
 
     /**

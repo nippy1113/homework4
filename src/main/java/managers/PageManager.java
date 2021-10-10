@@ -3,11 +3,6 @@ package managers;
 import pages.CreditPage;
 import pages.HomePage;
 
-
-/**
- * @author Arkadiy_Alaverdyan
- * Класс для управления страничками
- */
 public class PageManager {
 
     /**

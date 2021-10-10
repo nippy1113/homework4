@@ -13,10 +13,6 @@ import managers.DriverManager;
 import managers.PageManager;
 import managers.TestPropManager;
 
-/**
- * @author Arkadiy_Alaverdyan
- * Базовый класс всех страничек
- */
 public class BasePage {
 
     /**

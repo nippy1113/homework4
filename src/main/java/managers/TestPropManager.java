@@ -5,10 +5,6 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-/**
- * @author Arkadiy_Alaverdyan
- * Класс для управления пропертями
- */
 public class TestPropManager {
 
     /**

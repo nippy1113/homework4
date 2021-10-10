@@ -1,9 +1,5 @@
 package utils;
 
-/**
- * @author Arkadiy_Alaverdyan
- * Класс констант для удобного доступа к значения в файле application.properties
- */
 public class PropConst {
 
     public static final String BASE_URL = "base.url";
